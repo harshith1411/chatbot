@@ -1,7 +1,8 @@
 import openai
 import psycopg2
 
-openai.api_key = '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'
+#TODO: ADD YOUR OPEN AI API KEY HERE
+openai.api_key = 'YOUR_API_KEY_GOES_HERE'
 
 def convertToSql(userMessage, db):
     messages = [ {"role": "system", "content":
